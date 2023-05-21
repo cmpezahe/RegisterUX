@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="image_container">
+            <div class="nav_bar">
+                <div class="logo">Photography</div>
+                <div class="hamburger">=</div>
+            </div>
+                <div class="title">
+                    <h1 class="first_title">Click For Your Shoot</h1>
+                    <h1 class="second_title">Photography</h1>
+                </div>
+                <div class="footer_title">
+                    <h3>Journey Everywhere</h3>
+                </div>
+           
+
+        </div>
+
+        <div class="registeration_page">
+            <div class="register_title">
+                <h1 class="reg_title">
+                    Registeration
+                </h1>
+                <h2 class="h2_title">Click for your shoot</h2>
+            </div>
+            <div class="form">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name">
+
+                <label for="email">Email <input type="email" id="email" placeholder="Email"></label>
+               
+
+                <label for="gender">Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <label for="dateofbirth">Date of Birth</label>
+                <input type="text" id="date" name="date" placeholder="26 May 2023">
+                <!--<script>
+                const dateInput = document.getElementById("date");
+                
+                dateInput.addEventListener("input", function() {
+                  const inputValue = this.value;
+                  const date = new Date(inputValue);
+                  
+                  if (!isNaN(date.getTime())) {
+                    const day = date.getDate().toString().padStart(2, "0");
+                    const month = (date.getMonth() + 1).toString().padStart(2, "0");
+                    const year = date.getFullYear();
+                    
+                    this.value = `${day}/${month}/${year}`;
+                  }
+                });
+              </script>
+              -->
+                <label for="cit">City</label>
+                <input type="text" id="city" name="city" placeholder="London">
+
+
+            </div>
+            <div class="subscription">
+                <div class="brons">Bronze</div>
+                <div class="silver">Silver</div>
+                <div class="gold">Gold</div>
+            </div>
+
+            <div class="btns">
+                <button type="button" id="concel_btn">Concel</button>
+                <button type="button" id="confirm_btn">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
